@@ -8,5 +8,7 @@ Simple exemple DarkTheme System
 ![](https://github.com/jaozinfs/DarkTheme-Coroutine-Mvvm-DI/blob/master/img/1.png)
 ### Night Default
 ![](https://github.com/jaozinfs/DarkTheme-Coroutine-Mvvm-DI/blob/master/img/2.png)
+
 #### Night ON
+> Dark Theme will always be on
 ![](https://github.com/jaozinfs/DarkTheme-Coroutine-Mvvm-DI/blob/master/img/3.png)
