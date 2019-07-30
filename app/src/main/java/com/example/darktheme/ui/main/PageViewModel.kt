@@ -3,9 +3,7 @@ package com.example.darktheme.ui.main
 import androidx.appcompat.app.AppCompatDelegate.MODE_NIGHT_NO
 import androidx.appcompat.app.AppCompatDelegate.MODE_NIGHT_YES
 import androidx.lifecycle.*
-import com.example.darktheme.utils.DayNightHelper
-import com.example.darktheme.utils.SingleLiveEvent
-import com.example.darktheme.utils.fixRateTimer
+import com.example.darktheme.utils.*
 import kotlinx.coroutines.Job
 
 class PageViewModel(private val dayNightHelper: DayNightHelper) : ViewModel() {
@@ -22,9 +20,9 @@ class PageViewModel(private val dayNightHelper: DayNightHelper) : ViewModel() {
         verifyObjectDayNight(it)
     }
     private fun verifyObjectDayNight(data: Int): String = when(data){
-        MODE_NIGHT_YES -> "Night On"
-        MODE_NIGHT_NO -> "Night Off"
-        else -> "Default"
+        MODE_NIGHT_YES -> POSITIVE_BT_TXT
+        MODE_NIGHT_NO -> NEGATIVE_BT_TXT
+        else -> NEUTRAL_BT_TXT
     }
     fun startAnimation() {
         jobAnime?.let{

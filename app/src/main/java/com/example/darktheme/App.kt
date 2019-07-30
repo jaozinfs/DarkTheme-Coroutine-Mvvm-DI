@@ -25,7 +25,8 @@ class App : Application(){
         //setupDayNight
         initializeDayNightHelper()
     }
-    fun initializeDayNightHelper(){
+    private fun initializeDayNightHelper(){
         dayNightHelper.value.init()
     }
+
 }

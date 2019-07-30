@@ -44,4 +44,16 @@ class DayNightHelper(private val sharedPref: SharedPreferences, private val logM
 
     fun getMode() : LiveData<Int> = valueLiveData
 
+
+    fun nightOn(): Unit{
+        changeMode(MODE_NIGHT_YES)
+    }
+
+    fun nightOff(){
+        changeMode(MODE_NIGHT_NO)
+    }
+
+    fun nightDefault(){
+        changeMode(MODE_NIGHT_FOLLOW_SYSTEM)
+    }
 }

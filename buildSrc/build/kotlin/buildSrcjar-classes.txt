@@ -1,1 +1,1 @@
-C:\Users\swdadmin\AndroidStudioProjects\DarkTheme\buildSrc\build\classes\kotlin\main\Libs.class;C:\Users\swdadmin\AndroidStudioProjects\DarkTheme\buildSrc\build\classes\kotlin\main\Versions.class
+C:\Users\ZUPPER\StudioProjects\DarkTheme-Coroutine-Mvvm-DI\buildSrc\build\classes\kotlin\main\Libs.class;C:\Users\ZUPPER\StudioProjects\DarkTheme-Coroutine-Mvvm-DI\buildSrc\build\classes\kotlin\main\Versions.class
